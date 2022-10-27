@@ -1,9 +1,10 @@
 import './App.css';
+import HandDealing from './DisplayHand/Hand';
 
 function App() {
   return (
     <div className="App">
-    <h1>Hello world</h1>
+    <HandDealing></HandDealing>
     </div>
   );
 }
